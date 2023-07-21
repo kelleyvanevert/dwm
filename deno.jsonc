@@ -18,7 +18,8 @@
     "example_custom_cursor": "deno run -A --unstable examples/custom-cursor.ts",
     "example_custom_icon": "deno run -A --unstable examples/custom-icon.ts",
     "dev": "deno run -A --unstable examples/error_display.ts",
-    "compile-darwin": "mkdir -p builds && deno compile -A --unstable --target aarch64-apple-darwin examples/error_display.ts --output builds/error_display.darwin"
+    "compile-darwin": "mkdir -p builds && deno compile -A --unstable --target aarch64-apple-darwin examples/error_display.ts --output builds/error_display.darwin",
+    "compile-linux": "mkdir -p builds && deno compile -A --unstable --target x86_64-unknown-linux-gnu examples/error_display.ts --output builds/error_display.linux"
   },
 
   "lint": {

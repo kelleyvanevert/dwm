@@ -6,3 +6,4 @@ A quick POC:
   - With some immediate mode ish buttons drawn on canvas
   - Skia needs a dynamic library, but we can use `Deno.env.set` to resolve them locally, and then make sure we bundle them along with the executable
 - TODO: compile for linux and check that it works
+  - Update: it fails at initializing GLFW for some reason
