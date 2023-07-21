@@ -19,7 +19,7 @@ Fonts.register("./Roboto-Regular.ttf");
 
 const monitor = getPrimaryMonitor();
 
-const full = true;
+const full = false;
 
 const win = new WindowCanvas({
   title: "Error display",
